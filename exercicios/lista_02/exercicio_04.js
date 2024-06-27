@@ -49,7 +49,7 @@ if (entrada === "vertebrado") {
 
 if (entrada === "invertebrado") {
   entrada = leia
-    .question(console.log("Escolhas: Inseto e Mamífero"))
+    .question(console.log("Escolhas: Inseto e Anelídeo"))
     .toLowerCase();
 
   if (entrada === "inseto") {
